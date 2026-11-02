@@ -1,0 +1,31 @@
+# Telegram MTProto Client (Pyrogram v2.x + TgCrypto speedup)
+pyrofork==2.3.45
+tgcrypto==1.2.5
+
+# Async MongoDB Driver
+motor==3.6.0
+pymongo==4.9.2
+
+# Google Gemini AI SDK
+google-generativeai==0.8.3
+
+# Clean Web Scraping, Readability & Telegraph Instant View
+trafilatura==1.12.2
+readability-lxml==0.8.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
+lxml_html_clean==0.4.0
+telegraph[aio]==2.2.0
+aiohttp==3.10.10
+
+# YouTube Transcript & Metadata Extraction
+youtube-transcript-api==0.6.2
+
+# Clean PDF Generation & QR Code Rendering
+weasyprint==62.3
+reportlab==4.2.5
+qrcode[pil]==8.0
+Pillow==11.0.0
+
+# Environment Configuration
+python-dotenv==1.0.1

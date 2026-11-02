@@ -1,0 +1,6 @@
+{
+  "name": "CleanReader & Media Summarizer Bot Architect",
+  "description": "Production-ready Pyrogram v2, Motor MongoDB, and Google Gemini Telegram Bot codebase with interactive FSUB, Activity Logger, UPI Payment, and Live AI Summarizer workbench.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

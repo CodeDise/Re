@@ -53,7 +53,7 @@ class Config:
     # 5. Force Subscribe (FSUB) Channel Configuration
     # Accepts numeric ID (-100xxxxxxxxxx) or public username (@ChannelUsername)
     FSUB_CHANNEL_ID: int | str = _parse_int_or_str(
-        os.getenv("FSUB_CHANNEL_ID", "-1001987654321")
+        os.getenv("FSUB_CHANNEL_ID", "-1003944063310")
     )
     FSUB_INVITE_LINK: str = os.getenv(
         "FSUB_INVITE_LINK", "https://t.me/noharabots"

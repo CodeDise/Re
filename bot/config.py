@@ -36,7 +36,7 @@ class Config:
     # 1. Telegram MTProto & Bot Credentials
     API_ID: int = int(os.getenv("API_ID", "26944587"))
     API_HASH: str = os.getenv("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004")
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "9158454356:AAGvg4GpBs8uEEBCQryRT71k6l3zG8oUvGY")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8923673880:AAE-w7Ljts8PZ9vHbZOZhe5FlRpITQJdm7s")
     BOT_USERNAME: str = os.getenv("BOT_USERNAME", "CleanwebReaderBot").lstrip("@")
 
     # 2. MongoDB Async Driver (Motor) Configuration
@@ -66,19 +66,19 @@ class Config:
     # 7. UI & Branding Assets
     START_IMG_URL: str = os.getenv(
         "START_IMG_URL",
-        "https://telegra.ph/file/cleanreader-banner-cover.jpg",
+        "https://i.ibb.co/27HC0c9h/1000180064.png",
     )
     SUPPORT_CHAT_URL: str = os.getenv(
-        "SUPPORT_CHAT_URL", "https://t.me/CleanReaderSupport"
+        "SUPPORT_CHAT_URL", "https://t.me/noharabots"
     )
-    TELEGRAPH_SHORT_NAME: str = os.getenv("TELEGRAPH_SHORT_NAME", "@CleanwebReaderbot")
+    TELEGRAPH_SHORT_NAME: str = os.getenv("TELEGRAPH_SHORT_NAME", "@CleanReaderbot")
     TELEGRAPH_AUTHOR_NAME: str = os.getenv(
-        "TELEGRAPH_AUTHOR_NAME", "CleanReader Instant View"
+        "TELEGRAPH_AUTHOR_NAME", "@CleanReaderbot"
     )
 
     # 8. Monetization, Quotas & UPI Payment Configuration
     FREE_DAILY_LIMIT: int = int(os.getenv("FREE_DAILY_LIMIT", "5"))
-    UPI_ID: str = os.getenv("UPI_ID", "merchant@upi")
+    UPI_ID: str = os.getenv("UPI_ID", "vickynohara@fam")
     UPI_PAYEE_NAME: str = os.getenv("UPI_PAYEE_NAME", "CleanReader Pro")
     CURRENCY_SYMBOL: str = os.getenv("CURRENCY_SYMBOL", "₹")
 
@@ -101,7 +101,7 @@ class Config:
             "id": "lifetime",
             "label": "Lifetime Pass",
             "days": 36500,  # 100 years
-            "amount": int(os.getenv("PLAN_LIFETIME_PRICE", "699")),
+            "amount": int(os.getenv("PLAN_LIFETIME_PRICE", "999")),
             "description": "One-time payment — Permanent unlimited access to all current and future CleanReader features.",
         },
     }

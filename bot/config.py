@@ -34,10 +34,10 @@ def _parse_admin_ids(raw: str) -> List[int]:
 
 class Config:
     # 1. Telegram MTProto & Bot Credentials
-    API_ID: int = int(os.getenv("API_ID", "0"))
-    API_HASH: str = os.getenv("API_HASH", "")
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
-    BOT_USERNAME: str = os.getenv("BOT_USERNAME", "CleanReaderBot").lstrip("@")
+    API_ID: int = int(os.getenv("API_ID", "26944587"))
+    API_HASH: str = os.getenv("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "9158454356:AAGvg4GpBs8uEEBCQryRT71k6l3zG8oUvGY")
+    BOT_USERNAME: str = os.getenv("BOT_USERNAME", "CleanwebReaderBot").lstrip("@")
 
     # 2. MongoDB Async Driver (Motor) Configuration
     MONGO_URI: str = os.getenv("MONGO_URI", "mongodb://localhost:27017")
@@ -56,7 +56,7 @@ class Config:
         os.getenv("FSUB_CHANNEL_ID", "-1001987654321")
     )
     FSUB_INVITE_LINK: str = os.getenv(
-        "FSUB_INVITE_LINK", "https://t.me/+YourForceSubInviteHash"
+        "FSUB_INVITE_LINK", "https://t.me/noharabots"
     )
 
     # 6. Telegram Activity Log & Database Channel
@@ -71,7 +71,7 @@ class Config:
     SUPPORT_CHAT_URL: str = os.getenv(
         "SUPPORT_CHAT_URL", "https://t.me/CleanReaderSupport"
     )
-    TELEGRAPH_SHORT_NAME: str = os.getenv("TELEGRAPH_SHORT_NAME", "CleanReader")
+    TELEGRAPH_SHORT_NAME: str = os.getenv("TELEGRAPH_SHORT_NAME", "@CleanwebReaderbot")
     TELEGRAPH_AUTHOR_NAME: str = os.getenv(
         "TELEGRAPH_AUTHOR_NAME", "CleanReader Instant View"
     )

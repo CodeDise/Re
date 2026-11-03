@@ -48,7 +48,7 @@ class Config:
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
     # 4. Admin & Access Control
-    ADMIN_IDS: List[int] = _parse_admin_ids(os.getenv("ADMIN_IDS", "123456789"))
+    ADMIN_IDS: List[int] = _parse_admin_ids(os.getenv("ADMIN_IDS", "7955232487,8531489053"))
 
     # 5. Force Subscribe (FSUB) Channel Configuration
     # Accepts numeric ID (-100xxxxxxxxxx) or public username (@ChannelUsername)

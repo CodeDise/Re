@@ -40,7 +40,7 @@ class Config:
     BOT_USERNAME: str = os.getenv("BOT_USERNAME", "CleanwebReaderBot").lstrip("@")
 
     # 2. MongoDB Async Driver (Motor) Configuration
-    MONGO_URI: str = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+    MONGO_URI: str = os.getenv("MONGO_URI", "mongodb+srv://otxstudioofficial1_db_user:MEAH3IXpZFAxHHew@cluster0.n23pbwq.mongodb.net/?appName=Cluster0")
     DATABASE_NAME: str = os.getenv("DATABASE_NAME", "cleanreader_bot_db")
 
     # 3. Google Gemini API Configuration

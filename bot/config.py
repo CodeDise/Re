@@ -61,7 +61,7 @@ class Config:
 
     # 6. Telegram Activity Log & Database Channel
     # Private channel where bot logs reads, summaries, PDF uploads, and payment proofs
-    LOG_CHANNEL_ID: int = int(os.getenv("LOG_CHANNEL_ID", "-1001122334455"))
+    LOG_CHANNEL_ID: int = int(os.getenv("LOG_CHANNEL_ID", "-1003813081550"))
 
     # 7. UI & Branding Assets
     START_IMG_URL: str = os.getenv(

@@ -44,7 +44,7 @@ class Config:
     DATABASE_NAME: str = os.getenv("DATABASE_NAME", "cleanreader_bot_db")
 
     # 3. Google Gemini API Configuration
-    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "AQ.Ab8RN6JLe0PIuK04UKeqgx4OmH9LewUlNjlFLqY6_aF8NrzRnw")
     GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
     # 4. Admin & Access Control
